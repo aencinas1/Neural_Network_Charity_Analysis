@@ -37,4 +37,4 @@ With the data processed, I could compile, train, and evaluate the model:
 ![](Images/leakybest.png)
 
 ## Summary
-The overall results of my model did not meet our target accuracy, which
+The overall results of my model did not meet our target accuracy, meaning that my model would predict a successful applicant only 72% of the time. The target accuracy was not excessively high, so the fact that the model was not able to meet it suggests that a neural network is not the model that should be used for this prediction. Since we have our outcome variable and features to feed into the model, there are other supervised machine learning models that I would suggest, either a SVM or a Random Forest Classifier model would be worth looking in to. Specifically, a Random Forest model functions simlarly to a neural network. I would expect it to push our model over the 75% accuracy mark.
